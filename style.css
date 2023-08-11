@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 16px;
+    gap: 16px;
+}
+
+.item{
+    height: 150px;
+    width: 80%;
+    background-color: #d9b5bf;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 32px;
+    position: relative;
+}
+
+.text{
+    color: #412122;
+    font-size: 64px;
+}
+
+.forma{
+    width: 100px;
+    height: 100px;
+    border-radius: 12px;
+    background-color: #650000;
+    cursor: pointer;
+    transition: .7s;
+}
+
+.color{
+    background-color: #924f60;
+}
+
+.circulo{
+    border-radius: 50%;
+}
+
+.lugar{
+    position: absolute;
+    bottom: 0;
+    right: 32px;
+}
+.girar{
+    transform: rotate(180deg);
+    transition: .9s;
+}
+.pic{
+    background-image: url(./img/soob.jpg);
+    background-size: cover;
+    transition: .9s;
+}
+.fade{
+    opacity: 0%;
+    transition: .9s;
+}
+.size{
+    width: 16px;
+    height: 16px;
+}
+.inversot{
+    color: #bededd;
+}
+.inversoi{
+    background-color: #264a40;
+}
